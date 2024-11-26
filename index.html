@@ -3,8 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>X-mas</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Christmas Operations League (COL)</title>
   </head>
-  <body></body>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:25</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="login-header">
+      <h1 class="login-header__title">MERRY CHRISTMAS</h1>
+      <p class="login-header__text">
+        Christmas Operations League (COL) members, <br />
+        enter your Santa ID and password to log in.
+      </p>
+    </header>
+
+    <form class="login-form">
+      <input class="login-form__input" type="text" placeholder="Santa ID" />
+      <input class="login-form__input" type="text" placeholder="Password" />
+      <input class="login-form__btn" type="submit" value="Log in" />
+      <input class="login-form__btn" type="submit" value="Sign up" />
+      <a href="#" class="login-form__a">Find Santa ID ot Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/189a080f37.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
