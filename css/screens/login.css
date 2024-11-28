@@ -1,5 +1,6 @@
 .login-header {
-  margin: 100px 0;
+  margin-top: 100px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -12,7 +13,7 @@
 .login-header__text {
   font-size: 18px;
   line-height: 24px;
-  color: #4f4f4f;
+  color: var(--gray);
 }
 
 .login-form {
@@ -25,20 +26,20 @@
   padding: 20px 0;
   font-size: 20px;
   border: none;
-  border-bottom: 1px solid #5f5f5f;
+  border-bottom: 1px solid #626262;
   transition: border-color 0.3s ease-in-out;
 }
 
 .login-form__input::placeholder {
-  color: #6f6f6f;
+  color: #8e8e8e;
 }
 
 .login-form__input:focus {
-  border-color: var(--tree);
+  border-color: var(--red);
 }
 
 .login-form__input:nth-child(2) {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .login-form__btn {
