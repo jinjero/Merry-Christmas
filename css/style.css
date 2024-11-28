@@ -6,11 +6,12 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/profile.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/rudolphs.css";
 
 body {
-  height: 100000000px;
-  color: #111111;
+  color: #181818;
   font-family: "Cormorant Garamond", serif;
 }
