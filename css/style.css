@@ -7,11 +7,17 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/profile.css";
+@import "components/badge.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/rudolphs.css";
+@import "screens/chats.css";
 
-body {
+html {
   color: #181818;
   font-family: "Cormorant Garamond", serif;
+}
+
+.main-screen {
+  padding: 25px var(--horizontal-space);
 }
