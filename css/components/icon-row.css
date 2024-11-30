@@ -1,0 +1,34 @@
+.icon-row,
+.icon-row--more {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row {
+  margin-bottom: 25px;
+}
+
+.icon-row--more {
+  margin-bottom: 10px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.icon-row .white {
+  border: none;
+  color: white;
+}
+
+.white div {
+  width: 80px;
+  height: 80px;
+}

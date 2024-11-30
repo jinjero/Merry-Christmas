@@ -59,10 +59,12 @@
 }
 
 .login-form__a {
-  cursor: pointer;
-  text-align: center;
   margin-top: 16px;
-  text-decoration: none;
-  color: #5f5f5f;
+
+  text-align: center;
+
+  color: var(--gray);
   font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
 }
