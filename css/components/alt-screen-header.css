@@ -1,6 +1,6 @@
 .alt-header {
-  padding: var(--horizontal-space);
-  margin-bottom: 15px;
+  padding: 10px var(--horizontal-space);
+  margin-top: 50px;
 
   display: flex;
   justify-content: center;
@@ -22,4 +22,8 @@
 
 .alt-header__column i {
   font-size: 20px;
+}
+
+.i-white {
+  color: #f4f4f4;
 }
