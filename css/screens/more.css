@@ -1,4 +1,8 @@
+.ads {
+  display: flex;
+  flex-direction: column;
+}
+
 .ads__image {
-  width: 345px;
   margin-top: 20px;
 }

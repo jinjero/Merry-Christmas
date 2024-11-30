@@ -1,9 +1,5 @@
 .find-screen {
-  width: 345px;
-  height: 73vh;
   padding: 15px var(--horizontal-space);
-
-  overflow-y: scroll;
 }
 
 .recomend__text {
