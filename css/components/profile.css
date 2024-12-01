@@ -28,13 +28,13 @@
 }
 
 .profile__column__title {
-  margin-bottom: 10px;
-
   font-size: 22px;
   font-weight: 400;
 }
 
 .profile__column__subtitle {
+  margin-top: 10px;
+
   color: var(--gray);
   font-size: 16px;
   font-weight: 300;
@@ -74,4 +74,13 @@
 
   font-size: 16px;
   font-weight: 300;
+}
+
+.profile-more {
+  padding-bottom: 10px;
+}
+
+.column-more {
+  color: var(--red);
+  font-size: 28px;
 }

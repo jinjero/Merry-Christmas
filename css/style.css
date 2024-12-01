@@ -31,3 +31,8 @@ html {
 .main-screen {
   padding: 25px var(--horizontal-space);
 }
+
+main {
+  height: 79vh;
+  overflow-x: scroll;
+}
