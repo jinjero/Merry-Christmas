@@ -100,3 +100,41 @@
   font-size: 18px;
   border-radius: 0px 100px 100px 100px;
 }
+
+.enter {
+  width: 100%;
+  padding: 14px 16px;
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+}
+
+.enter-plus {
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e8e9ec;
+  color: #7d7f86;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.enter input {
+  width: 100%;
+  height: 40px;
+  padding-left: 14px;
+
+  border: 1px solid #e8e9ec;
+  border-radius: 30px;
+  font-size: 18px;
+}

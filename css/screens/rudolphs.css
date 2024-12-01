@@ -16,3 +16,35 @@
   font-size: 16px;
   font-weight: 300;
 }
+
+@keyframes hideSplash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+
+  background-color: white;
+
+  animation: hideSplash 0.8s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.splash img {
+  width: 280px;
+  height: 450px;
+}
