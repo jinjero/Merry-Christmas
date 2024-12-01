@@ -12,6 +12,7 @@
 @import "components/icon-row.css";
 @import "components/gray-section.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
